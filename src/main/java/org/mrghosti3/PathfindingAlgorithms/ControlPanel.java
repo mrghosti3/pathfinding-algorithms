@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 
 public class ControlPanel {
 
-    public static final String NODE_LABEL_FORMAT = "Node (%d ; %d) (%d %d %d) %s";
+    public static final String NODE_LABEL_FORMAT = "%s %s";
     public static final String OPEN_LABEL_FORMAT   = "Open:   %d";
     public static final String CLOSED_LABEL_FORMAT = "Closed: %d";
     public static final String PATH_LABEL_FORMAT   = "Path:   %d";

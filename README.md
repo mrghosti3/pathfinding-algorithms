@@ -1,18 +1,18 @@
 # Pathfinding algorithms
 
-This is a small project in getting better at Java language, learning various pathfining algorithms and visualizing how they work.
+This is a small project in getting better at Java language, learning various pathfinding algorithms and visualizing how they work.
 
 ### Work in progress
 
-- Make this README more interesting
-- Add non-diagonal pathfinding
-- Change non-existant path check
-- Add screen movement
-- Add speed slider
-- BFS (breadth-first search) algorithm
-- DFS (depth-first search) algorithm
-- Dijkstra's algorithm
-- ~~A* (A Star) algorithm~~
+- [ ] Make this README more interesting
+- [ ] Add non-diagonal pathfinding
+- [ ] Change non-existent path check
+- [ ] Add screen movement
+- [ ] Add speed slider
+- [ ] BFS (breadth-first search) algorithm
+- [ ] DFS (depth-first search) algorithm
+- [ ] Dijkstra's algorithm
+- [X] ~~A* (A Star) algorithm~~
 
 ### Usage
 

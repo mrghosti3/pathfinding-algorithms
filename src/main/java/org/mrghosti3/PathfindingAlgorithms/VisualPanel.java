@@ -132,7 +132,7 @@ public class VisualPanel extends JPanel
         nodeInfoPanel(e);
 
         int x = e.getX(), y = e.getY();
-        hover = ( x >= 10 && x <= 332 && y >= (this.getHeight() - 96) && y <= (this.getHeight() - 6) );
+        hover = ( x >= 10 && x <= getWidth() - 10 && y >= (this.getHeight() - 96) && y <= (this.getHeight() - 6) );
 
         repaint();
     }
@@ -259,7 +259,7 @@ public class VisualPanel extends JPanel
                 String.format(ControlPanel.PATH_LABEL_FORMAT, pathfinder.getPath().size())
         );
 
-        g.fillRect(10, height-96, 330, 90);
+        g.fillRect(10, height - 96, width - 20, 90);
         cp.position();
     }
 
@@ -320,8 +320,7 @@ public class VisualPanel extends JPanel
         }
 
         cp.getLabel("label-node").setText(
-                String.format(ControlPanel.NODE_LABEL_FORMAT,
-                        n.getX(), n.getY(), n.getG(), n.getH(), n.getF(), nType)
+                String.format(ControlPanel.NODE_LABEL_FORMAT, n.toString(), nType)
         );
     }
 
